@@ -88,11 +88,11 @@ export default class App extends Component<{}> {
           <View style={styles.containerThree}>
         <TouchableOpacity
           onPress={() => this._changeStyle3()}>
-            <Text style = {styles.textButton}> Button2 </Text>
+            <Text style = {styles.textButton}> Button3 </Text>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => this._changeStyle4()}>
-            <Text style = {styles.textButton}> Button2 </Text>
+            <Text style = {styles.textButton}> Button4 </Text>
         </TouchableOpacity>
           </View>
         </View>
@@ -104,7 +104,7 @@ export default class App extends Component<{}> {
     textAlign: 'center',
     fontSize: 26,
     marginLeft: 95,
-    borderColor: 'yellow',
+    borderColor: 'gray',
     color: this.state.color }}> text1 </Text>
              <Text style = {{ marginTop:10,
     borderWidth: 6,
@@ -113,7 +113,7 @@ export default class App extends Component<{}> {
     textAlign: 'center',
     fontSize: 26,
     marginLeft: 95,
-    borderColor: 'yellow',
+    borderColor: 'gray',
     color: this.state.color2 }}> text2 </Text>
             <Text style = {{ marginTop:10,
     borderWidth: 6,
@@ -122,7 +122,7 @@ export default class App extends Component<{}> {
     textAlign: 'center',
     fontSize: 26,
     marginLeft: 95,
-    borderColor: 'yellow',
+    borderColor: 'gray',
     color: this.state.color3 }}> text3 </Text>
             <Text style = {{ marginTop:10,
     borderWidth: 6,
@@ -131,7 +131,7 @@ export default class App extends Component<{}> {
     textAlign: 'center',
     fontSize: 26,
     marginLeft: 95,
-    borderColor: 'yellow',
+    borderColor: 'gray',
     color: this.state.color4 }}> text4 </Text>
         </View>
       </View>
